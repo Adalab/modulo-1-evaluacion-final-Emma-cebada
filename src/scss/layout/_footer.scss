@@ -14,15 +14,14 @@ a {
   position: relative;
 }
 
-.content__footer {
-}
-
 .nav__footer__article {
   width: 73px;
   height: 150px;
   text-align: center;
   margin-top: 60px;
   margin-left: 124px;
+  display: block;
+  justify-content: space-between;
 }
 
 .ico__arrow-top {
@@ -49,6 +48,8 @@ a {
 
 .footer__list__item {
   list-style: none;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
 .paragraph__heart {
@@ -57,6 +58,8 @@ a {
   font-size: 14px;
   margin-bottom: 45px;
   margin-left: 15px;
+  color: #ffffff;
+  padding-top: 10px;
 }
 
 .heart__img {
@@ -72,4 +75,5 @@ a {
   text-align: center;
   margin-left: 141px;
   margin-bottom: 75px;
+  color: #ffffff;
 }
