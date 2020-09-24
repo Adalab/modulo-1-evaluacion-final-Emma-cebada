@@ -18,10 +18,18 @@ a {
   width: 73px;
   height: 150px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 124px;
   display: block;
   justify-content: space-between;
+}
+
+.nav__footer__twitter {
+  width: 147px;
+  height: 90px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 87px;
 }
 
 .ico__arrow-top {
@@ -38,17 +46,9 @@ a {
   transform: translate(0, -50%);
 }
 
-.nav__footer__twitter {
-  width: 147px;
-  height: 90px;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 87px;
-}
-
 .footer__list__item {
   list-style: none;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@ a {
   margin-bottom: 45px;
   margin-left: 15px;
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .heart__img {
@@ -74,6 +74,6 @@ a {
   font-size: 14px;
   text-align: center;
   margin-left: 141px;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
   color: #ffffff;
 }
