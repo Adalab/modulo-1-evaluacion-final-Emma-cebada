@@ -85,3 +85,27 @@
     margin-left: 39px;
   }
 }
+@media all and (min-width: 1200px) {
+  .main__sec__looking {
+    width: 1280px;
+    height: 360px;
+  }
+  .small {
+    margin-left: 275px;
+  }
+  .title2 {
+    width: 730px;
+    height: 45px;
+    margin-left: 275px;
+  }
+  .paragraph {
+    width: 730px;
+    height: 60px;
+    margin-left: 275px;
+  }
+  .button__go {
+    width: 160px;
+    height: 45px;
+    margin-left: 275px;
+  }
+}
