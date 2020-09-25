@@ -1,8 +1,4 @@
 /* main__sec__looking*/
-// .content__sec__looking {
-//   width: 320px;
-//   height: 376px;
-// }
 .main__sec__looking {
   width: 320px;
   height: 376px;
@@ -55,26 +51,33 @@
 
 @media all and (min-width: 768px) {
   .main__sec__looking {
-    margin-top: -370px;
-    margin-left: 39px;
     width: 768px;
     height: 330px;
+  }
+  .small {
+    // width: 216px;
+    // height: 30px;
+    // margin-top: 30px;
+    margin-left: 39px;
   }
   .title2 {
     width: 690px;
     height: 45px;
     font-size: 26px;
+    margin-left: 39px;
   }
   .paragraph {
     width: 690px;
     height: 60px;
     font-size: 20px;
     font-weight: 500;
+    margin-left: 39px;
   }
   .button__go {
     width: 91px;
     height: 45px;
     position: relative;
-    margin-top: -30px;
+    margin-bottom: 60px;
+    margin-left: 39px;
   }
 }
