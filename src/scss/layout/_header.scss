@@ -1,20 +1,30 @@
-/* Header */
-
-.header {
-  width: 100vh;
+header {
+  // width: 100vh;
 }
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 0;
+}
+.hero__content-img {
+  width: 320px;
+  height: 578px;
+  overflow: hidden;
+  position: relative;
 }
 .hero__img {
-  height: 568px;
+  position: absolute;
+  left: -150%;
+  right: -100%;
+  top: -101%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+  transform: scale(0.75);
 }
 .content__hero__title {
   width: 290px;
   height: 110px;
+  margin-top: 284px;
   text-align: center;
 }
 
@@ -29,14 +39,25 @@
   color: white;
   position: absolute;
   bottom: 174px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9900;
 }
 
 .hero__title__small {
+  width: 290px;
+  height: 21px;
   font-size: 16px;
+  left: 15px;
   bottom: 143px;
   color: white;
   text-align: center;
-  position: relative;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 9900;
 }
 
 .ico-scroll-down {
@@ -48,6 +69,7 @@
   background-color: white;
   border-radius: 50%;
   position: absolute;
+  left: 138px;
   bottom: 53px;
 }
 
@@ -59,8 +81,8 @@
   height: 44px;
   background-color: #0271bc;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   z-index: 9999;
 }
 

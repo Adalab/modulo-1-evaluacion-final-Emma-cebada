@@ -1,37 +1,36 @@
 /* Footer */
 a {
   text-decoration: none;
-  font-family: "Roboto Regular", arial;
+  font-family: "Roboto-Regular", arial;
   color: #ffffff;
 }
-
+.content__footer {
+  display: flex;
+  flex-direction: column;
+}
 .section__footer {
   margin-top: -127px;
-  margin-left: 15px;
   width: 320px;
-  height: 465px;
+  // height: 465px;
   background-color: #304268;
   position: relative;
 }
-
 .nav__footer__article {
   width: 73px;
   height: 150px;
   text-align: center;
-  margin-top: 40px;
-  margin-left: 124px;
+  margin-top: 10px;
+  margin-left: 114px;
   display: block;
   justify-content: space-between;
 }
-
 .nav__footer__twitter {
   width: 147px;
   height: 90px;
   text-align: center;
   margin-top: 30px;
-  margin-left: 87px;
+  margin-left: 77px;
 }
-
 .ico__arrow-top {
   display: flex;
   justify-content: center;
@@ -42,38 +41,70 @@ a {
   border-radius: 50%;
   position: relative;
   margin-top: 38px;
-  margin-left: 138px;
+  margin-left: 130px;
   transform: translate(0, -50%);
 }
-
 .footer__list__item {
   list-style: none;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-
 .paragraph__heart {
   width: 290px;
   height: 30px;
   font-size: 14px;
   margin-bottom: 45px;
-  margin-left: 15px;
+  margin-left: 5px;
   color: #ffffff;
-  padding-top: 12px;
+  padding-top: 7px;
 }
-
 .heart__img {
   width: 14px;
   height: 14px;
 }
-
 .copy {
   width: 77px;
   height: 30px;
   font-family: "Roboto", arial;
   font-size: 14px;
   text-align: center;
-  margin-left: 141px;
-  margin-bottom: 60px;
+  margin-left: 131px;
+  margin-bottom: 75px;
   color: #ffffff;
+}
+@media all and (min-width: 768px) {
+  .section__footer {
+    width: 768px;
+    height: 240px;
+  }
+  // .nav__footer__article {
+  //   width: 210px;
+  //   height: 150px;
+  //   margin-left: 279px;
+  //   margin-top: 15px;
+  // }
+  // .footer__twitter__list {
+  //   background-color: chartreuse;
+  //   width: 210px;
+  //   height: 90px;
+  //   margin-left: 30px;
+  //   // margin-bottom: 345px;
+  // }
+  // .ico__arrow-top {
+  //   margin-left: 362px;
+  // }
+  // .paragraph__heart {
+  //   background-color: darkgreen;
+  //   width: 210px;
+  //   height: 30px;
+  //   margin-bottom: 142px;
+  //   margin-left: 39px;
+  // }
+  // .copy {
+  //   background-color: crimson;
+  //   width: 210px;
+  //   height: 30px;
+  //   margin-left: 39px;
+  //   margin-bottom: 165px;
+  // }
 }

@@ -1,18 +1,22 @@
 /* main__sec__looking*/
-
-main {
-  margin-left: 15px;
-}
+// .content__sec__looking {
+//   width: 320px;
+//   height: 376px;
+// }
 .main__sec__looking {
-  margin-top: -60px;
   width: 320px;
   height: 376px;
+  margin-top: -4px;
 }
 
 .small {
   font-family: "Roboto Regular", arial;
   font-size: 14px;
   color: #8ccbea;
+  width: 90px;
+  height: 30px;
+  margin-left: 15px;
+  top: 30px;
 }
 
 .title2 {
@@ -23,6 +27,7 @@ main {
   text-transform: capitalize;
   width: 290px;
   height: 60px;
+  margin-left: 15px;
 }
 
 .paragraph {
@@ -31,6 +36,7 @@ main {
   color: #4a4a4a;
   width: 290px;
   height: 120px;
+  margin-left: 15px;
 }
 
 .button__go {
@@ -44,6 +50,7 @@ main {
   border: solid 2px;
   border-radius: 22.5px;
   top: 30px;
+  margin-left: 15px;
 }
 
 @media all and (min-width: 768px) {
