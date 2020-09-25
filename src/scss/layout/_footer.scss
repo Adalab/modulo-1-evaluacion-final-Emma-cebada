@@ -100,12 +100,14 @@ a {
   .nav__footer__article {
     width: 210px;
     height: 150px;
+    text-align: start;
     margin-top: -1px;
     margin-left: -45px;
   }
   .nav__footer__twitter {
     width: 210px;
     height: 90px;
+    text-align: start;
     order: -1;
     margin-top: -52px;
     margin-left: -5px;
@@ -113,5 +115,36 @@ a {
   }
   .ico__arrow-top {
     margin-left: 362px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .section__footer {
+    width: 1280px;
+    height: 240px;
+  }
+  .copy {
+    width: 159px;
+    height: 30px;
+    margin-left: 370px;
+  }
+  .paragraph__heart {
+    width: 159px;
+    height: 30px;
+    margin-left: 370px;
+  }
+  .nav__footer__article {
+    width: 161px;
+    height: 150px;
+    text-align: start;
+    margin-left: 35px;
+  }
+  .nav__footer__twitter {
+    width: 159px;
+    height: 90px;
+    text-align: start;
+    margin-right: 380px;
+  }
+  .ico__arrow-top {
+    margin-left: 618px;
   }
 }
