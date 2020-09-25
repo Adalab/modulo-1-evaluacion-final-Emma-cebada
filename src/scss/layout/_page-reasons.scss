@@ -53,6 +53,10 @@
   border-radius: 22.5px;
   margin-left: 55px;
   margin-top: 45px;
+  transition: background-color 0.5s;
+}
+.button__more:hover {
+  background-color: darkslateblue;
 }
 .reason1 {
   grid-row: 1;

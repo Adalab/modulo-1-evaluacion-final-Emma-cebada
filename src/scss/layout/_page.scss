@@ -47,6 +47,10 @@
   border-radius: 22.5px;
   top: 30px;
   margin-left: 15px;
+  transition: background-color 0.5s;
+}
+.button__go:hover {
+  background-color: darkslateblue;
 }
 
 @media all and (min-width: 768px) {
