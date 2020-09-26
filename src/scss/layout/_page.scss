@@ -1,10 +1,16 @@
-/* main__sec__looking*/
 .main__sec__looking {
   width: 320px;
   height: 376px;
   margin-top: -4px;
+  @media all and (min-width: 768px) {
+    width: 768px;
+    height: 330px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 1280px;
+    height: 360px;
+  }
 }
-
 .small {
   font-family: $font-roboto-sans;
   font-size: 14px;
@@ -13,8 +19,13 @@
   height: 30px;
   margin-left: 15px;
   top: 30px;
+  @media all and (min-width: 768px) {
+    margin-left: 39px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-left: 275px;
+  }
 }
-
 .title2 {
   font-family: $font-roboto-slab;
   font-size: 24px;
@@ -24,8 +35,18 @@
   width: 290px;
   height: 60px;
   margin-left: 15px;
+  @media all and (min-width: 768px) {
+    width: 690px;
+    height: 45px;
+    font-size: 26px;
+    margin-left: 39px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    height: 45px;
+    margin-left: 275px;
+  }
 }
-
 .paragraph {
   font-family: $font-roboto-sans;
   font-size: 18px;
@@ -33,8 +54,19 @@
   width: 290px;
   height: 120px;
   margin-left: 15px;
+  @media all and (min-width: 768px) {
+    width: 690px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 39px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    height: 60px;
+    margin-left: 275px;
+  }
 }
-
 .button__go {
   text-align: center;
   font-family: $font-roboto-medium;
@@ -48,64 +80,19 @@
   top: 30px;
   margin-left: 15px;
   transition: background-color 0.5s;
-}
-.button__go:hover {
-  background-color: $color-dark-midtone;
-}
-
-@media all and (min-width: 768px) {
-  .main__sec__looking {
-    width: 768px;
-    height: 330px;
-  }
-  .small {
-    // width: 216px;
-    // height: 30px;
-    // margin-top: 30px;
-    margin-left: 39px;
-  }
-  .title2 {
-    width: 690px;
-    height: 45px;
-    font-size: 26px;
-    margin-left: 39px;
-  }
-  .paragraph {
-    width: 690px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 39px;
-  }
-  .button__go {
+  @media all and (min-width: 768px) {
     width: 91px;
     height: 45px;
     position: relative;
     margin-bottom: 60px;
     margin-left: 39px;
   }
-}
-@media all and (min-width: 1200px) {
-  .main__sec__looking {
-    width: 1280px;
-    height: 360px;
-  }
-  .small {
-    margin-left: 275px;
-  }
-  .title2 {
-    width: 730px;
-    height: 45px;
-    margin-left: 275px;
-  }
-  .paragraph {
-    width: 730px;
-    height: 60px;
-    margin-left: 275px;
-  }
-  .button__go {
+  @media all and (min-width: 1200px) {
     width: 160px;
     height: 45px;
     margin-left: 275px;
   }
+}
+.button__go:hover {
+  background-color: $color-dark-midtone;
 }
