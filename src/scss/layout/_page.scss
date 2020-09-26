@@ -6,9 +6,9 @@
 }
 
 .small {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   font-size: 14px;
-  color: #8ccbea;
+  color: $color-light-midtone;
   width: 90px;
   height: 30px;
   margin-left: 15px;
@@ -16,10 +16,10 @@
 }
 
 .title2 {
-  font-family: "Roboto Slab", serif;
+  font-family: $font-roboto-slab;
   font-size: 24px;
-  font-weight: bold;
-  color: #000000;
+  font-weight: $font-weight-bold;
+  color: $color-dark;
   text-transform: capitalize;
   width: 290px;
   height: 60px;
@@ -27,9 +27,9 @@
 }
 
 .paragraph {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   font-size: 18px;
-  color: #4a4a4a;
+  color: $color-midtone;
   width: 290px;
   height: 120px;
   margin-left: 15px;
@@ -37,12 +37,12 @@
 
 .button__go {
   text-align: center;
-  font-family: "Roboto Medium", arial;
+  font-family: $font-roboto-medium;
   font-size: 20px;
   width: 76px;
   height: 45px;
-  background-color: white;
-  color: #f26002;
+  background-color: $color-light;
+  color: $color-button;
   border: solid 2px;
   border-radius: 22.5px;
   top: 30px;
@@ -50,7 +50,7 @@
   transition: background-color 0.5s;
 }
 .button__go:hover {
-  background-color: darkslateblue;
+  background-color: $color-dark-midtone;
 }
 
 @media all and (min-width: 768px) {

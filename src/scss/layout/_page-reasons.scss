@@ -2,7 +2,7 @@
 .content__sec__reasons {
   width: 320px;
   height: 624px;
-  background-color: #eff9ff;
+  background-color: $color-light-background;
   top: -90px;
   position: relative;
   display: grid;
@@ -12,10 +12,10 @@
   grid-template-columns: 250px 250px 250px;
 }
 .reason {
-  font-family: "Roboto Slab", serif;
+  font-family: $font-roboto-slab;
   font-size: 24px;
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   width: 290px;
   height: 30px;
   margin-top: 30px;
@@ -23,17 +23,17 @@
 .item {
   width: 184px;
   height: 30px;
-  font-family: "Roboto Slab", serif;
+  font-family: $font-roboto-slab;
   font-size: 18px;
-  font-weight: bold;
-  color: #000000;
+  font-weight: $font-weight-bold;
+  color: $color-dark;
   margin-left: 53px;
   margin-top: 45px;
 }
 .element {
   width: 180px;
   height: 63px;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   font-size: 18px;
   text-align: center;
   margin-left: 55px;
@@ -41,20 +41,20 @@
 .button__more {
   width: 184px;
   height: 45px;
-  font-family: "Roboto Medium", arial;
+  font-family: $font-roboto-medium;
   font-size: 20px;
   text-transform: capitalize;
   text-align: center;
-  background-color: #f26002;
+  background-color: $color-button;
   border: solid 2px;
-  color: white;
+  color: $color-light;
   border-radius: 22.5px;
   margin-left: 55px;
   margin-bottom: 45px;
   transition: background-color 0.5s;
 }
 .button__more:hover {
-  background-color: darkslateblue;
+  background-color: $color-dark-midtone;
 }
 .reason1 {
   grid-row: 1;

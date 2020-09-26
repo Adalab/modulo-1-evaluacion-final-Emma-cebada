@@ -1,8 +1,8 @@
 /* Footer */
 a {
   text-decoration: none;
-  font-family: "Roboto-Regular", arial;
-  color: #ffffff;
+  font-family: $font-roboto-regular;
+  color: $color-light;
 }
 .content__footer {
   display: flex;
@@ -12,11 +12,11 @@ a {
   margin-top: -127px;
   width: 320px;
   // height: 465px;
-  background-color: #304268;
+  background-color: $color-dark-midtone;
   position: relative;
 }
 .nav__footer__article {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   width: 73px;
   height: 150px;
   text-align: center;
@@ -26,7 +26,7 @@ a {
   justify-content: space-between;
 }
 .nav__footer__twitter {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   width: 147px;
   height: 90px;
   text-align: center;
@@ -39,7 +39,7 @@ a {
   align-items: center;
   width: 45px;
   height: 45px;
-  background-color: white;
+  background-color: $color-light;
   border-radius: 50%;
   position: relative;
   margin-top: 38px;
@@ -66,13 +66,13 @@ a {
   text-transform: uppercase;
 }
 .paragraph__heart {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   width: 290px;
   height: 30px;
   font-size: 14px;
   margin-bottom: 45px;
   margin-left: 5px;
-  color: #ffffff;
+  color: $color-light;
   padding-top: 7px;
 }
 .heart__img {
@@ -82,12 +82,12 @@ a {
 .copy {
   width: 77px;
   height: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto-sans;
   font-size: 14px;
   text-align: center;
   margin-left: 131px;
   margin-bottom: 75px;
-  color: #ffffff;
+  color: $color-light;
 }
 @media all and (min-width: 768px) {
   .section__footer {
