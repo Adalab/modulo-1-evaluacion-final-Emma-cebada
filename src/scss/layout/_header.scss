@@ -27,7 +27,7 @@
 
 .hero__title {
   font-size: 42px;
-  font-family: "Roboto Slab Bold", arial;
+  font-family: "Roboto Slab", serif;
   font-weight: 600;
   line-height: bold;
   text-transform: uppercase;
@@ -46,6 +46,7 @@
 .hero__title__small {
   width: 290px;
   height: 21px;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   left: 15px;
   bottom: 143px;
@@ -68,7 +69,7 @@
   border-radius: 50%;
   position: absolute;
   left: 138px;
-  bottom: 53px;
+  bottom: 65px;
 }
 
 .ico-menu {
@@ -116,7 +117,7 @@
   }
   .ico-scroll-down {
     left: 362px;
-    bottom: 105px;
+    bottom: -20px;
   }
 }
 @media all and (min-width: 1200px) {
@@ -146,7 +147,7 @@
     margin-left: 275px;
   }
   .ico-scroll-down {
-    left: 618px;
-    bottom: 240px;
+    left: 630px;
+    bottom: -175px;
   }
 }

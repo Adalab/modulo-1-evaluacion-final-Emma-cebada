@@ -16,6 +16,7 @@ a {
   position: relative;
 }
 .nav__footer__article {
+  font-family: "Roboto", sans-serif;
   width: 73px;
   height: 150px;
   text-align: center;
@@ -25,6 +26,7 @@ a {
   justify-content: space-between;
 }
 .nav__footer__twitter {
+  font-family: "Roboto", sans-serif;
   width: 147px;
   height: 90px;
   text-align: center;
@@ -50,6 +52,7 @@ a {
   text-transform: uppercase;
 }
 .paragraph__heart {
+  font-family: "Roboto", sans-serif;
   width: 290px;
   height: 30px;
   font-size: 14px;
@@ -65,7 +68,7 @@ a {
 .copy {
   width: 77px;
   height: 30px;
-  font-family: "Roboto", arial;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   text-align: center;
   margin-left: 131px;

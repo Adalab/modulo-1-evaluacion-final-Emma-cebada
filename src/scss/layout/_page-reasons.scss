@@ -10,7 +10,7 @@
   grid-template-columns: 250px 250px 250px;
 }
 .reason {
-  font-family: "Roboto Slab Bold";
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
   text-transform: capitalize;
   font-weight: bold;
@@ -23,7 +23,7 @@
 .item {
   width: 184px;
   height: 30px;
-  font-family: "Roboto Slab Bold", arial;
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: bold;
   color: #000000;
@@ -35,7 +35,7 @@
 .element {
   width: 180px;
   height: 63px;
-  font-family: "Roboto Regular", arial;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
   align-self: center;
@@ -52,7 +52,7 @@
   color: white;
   border-radius: 22.5px;
   margin-left: 55px;
-  margin-top: 45px;
+  margin-bottom: 45px;
   transition: background-color 0.5s;
 }
 .button__more:hover {
@@ -117,7 +117,7 @@
   .button__more {
     width: 210px;
     height: 45px;
-    margin-left: 310.5px;
+    margin-left: 280px;
     margin-bottom: 60px;
   }
   .reason4 {
