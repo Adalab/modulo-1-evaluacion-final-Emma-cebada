@@ -1,0 +1,31 @@
+.sec__special-offer {
+  width: 100%;
+  background-color: $color-button;
+  // position: relative;
+}
+.special-offer__tittle {
+  text-transform: capitalize;
+}
+@media all and (max-width: 320px) {
+  .sec__special-offer {
+    display: none;
+  }
+}
+@media all and (min-width: 768px) {
+  // .sec__special-offer {
+  //   display: flex;
+  //   flex-direction: row;
+  //   flex-wrap: nowrap;
+  //   justify-content: center;
+  // }
+  .special-offer__title {
+    // width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .special-offer__subtitle,
+  .special-offer__paragraph {
+    display: inline-block;
+    text-align: center;
+  }
+}
